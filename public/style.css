@@ -1,0 +1,35 @@
+body{
+	background-color: darkcyan;
+	font-size: 2em;
+}
+
+#canvas_main{
+	float: left;
+	image-rendering: crisp-edges;
+}
+
+#canvas_grid{
+	float: left;
+	position: relative;
+}
+
+.dblock{
+	display: block;
+}
+
+#btn_d, #btn_r, #btn_c{
+	font-size: 2rem;
+	width: 20rem;
+}
+
+#size{
+	width: 20rem;
+	height: 1.5rem;
+	margin-top: 20px;
+}
+
+#res{
+	font-size: 4rem;
+	color: red;
+	white-space: pre-line;
+}

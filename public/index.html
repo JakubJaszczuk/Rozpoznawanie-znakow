@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+	<html lang="pl">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Riper">
+	<meta name="description" content="Machine learning, python letter recognition">
+	<title>Rozpoznawanie znaków</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Rozpoznawanie znaków</h1>
+	<div id="container">
+		<canvas id="canvas_main" width="56" height="56"></canvas>
+		<!--<canvas id="canvas_grid" width="560" height="560"></canvas>-->
+	</div>
+	<button id="btn_d" class="dblock">Rysuj</button>
+	<button id="btn_r" class="dblock">Gumka</button>
+	<button id="btn_c" class="dblock">Wyczyść</button>
+	<input type="range" id="size" min="1" max="20" value="8" class="dblock">
+	<div id="value"></div>
+	<p id="res"></p>
+	<script src="client.js" async></script>
+</body>
+</html>
