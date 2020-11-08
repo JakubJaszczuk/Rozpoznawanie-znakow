@@ -1,0 +1,7 @@
+/__pycache__
+/.vscode
+/node_modules
+/package.json
+/package-lock.json
+/.mypy_cache
+/train.pkl
